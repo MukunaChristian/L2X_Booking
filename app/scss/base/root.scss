@@ -1,0 +1,17 @@
+// Root variable will be added here
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+
+:root {
+  /* Font-family */
+  --font-family: 'Roboto', sans-serif;
+
+  /* Colors Jacaranda */
+  --color-jac-primary: hsl(276,51.4%,20.98%);
+
+  --color-primary-yellow: hsla(48, 100%, 54%, 1);
+  --color-primary-bg: rgb(255, 255, 255, 1);
+  --color-nav-bg: hsl(292.08,100%,20.78%);
+  --color-secondary-bg: hsla(291, 95%, 16%, 1);
+
+}
+

@@ -1,0 +1,52 @@
+@use './root.scss';
+@use './preset.scss';
+
+@font-face {
+  font-family: 'Digital Number';
+  src: url(public/assets/fonts/DigitalNumbers-Regular.woff);
+  format:('woff');
+}
+
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.text-truncate-1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.w-45 {
+   width: 45% !important;
+ }
+.vh-50 {
+  height: 50vh;
+}
+
+i.fa {
+  -webkit-animation: show 1s 1;
+  animation: show 1s 1;
+}
+
+.bi-list {
+  color: #fff;
+}
+
+#mobileMenu > a > svg {
+  color: #fff;
+}
+
+body > nav.fixed-top.jac > div > div.d-none.container.d-lg-flex.justify-content-between > div.d-flex.align-items-center.py-4 > div.search.mx-2 > form > button > svg {
+  vertical-align: top;
+}
+@-webkit-keyframes show {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes show {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
